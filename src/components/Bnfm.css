@@ -1,0 +1,26 @@
+.free-mentor{
+    height: 550px;
+    width: 500px;
+}
+.book-now{
+    background-color: rgb(1, 50, 70);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.bnfm{
+    background-color: rgb(190,226,254);
+    height: 20rem;
+    margin-bottom: 18rem;
+    box-shadow:1px 1px 4px 8px rgb(190,226,254);
+}
+
+
+  
+  @media (max-width: 769px) {
+    div .bnfm{
+        display: block;
+        height: auto;
+    }
+    
+  }

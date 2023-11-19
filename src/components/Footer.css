@@ -1,0 +1,51 @@
+
+/* for mobile */ 
+@media (max-width: 769px) {
+    .footer2 { 
+        margin-left: 1rem;      
+    }
+    .footer2 div{
+        padding-right: 16rem;
+}   
+  }
+
+/* for desktop */ 
+ @media (min-width: 769px) {
+    .footer2 { 
+        display: flex;  
+        margin-left: 4rem;    
+    }
+    .footer2 div{
+        margin-left: 4rem;
+    }
+  }
+
+
+/* for mobile */ 
+  
+@media (max-width: 769px) {
+    .footer3 { 
+          margin-left: 1rem;
+    }
+    .footer3 div{
+        margin-bottom: 1rem;
+    }
+  }
+
+/* for desktop */ 
+ @media (min-width: 769px) {
+    .footer3 { 
+        background-color: rgb(0, 48, 76);
+           display: flex;  
+           padding-bottom: 2rem;
+           padding-top: 1rem;
+    }
+    .footer3 div{
+        margin-left: 1.5rem;
+    }
+    .footer3 .private{
+        margin-right: 23rem;
+        margin-left: 7rem;
+    }
+  }
+

@@ -1,0 +1,30 @@
+.calback{
+    background-color:rgb(1, 50, 78);
+}
+.phone{
+    width: 400px;
+    height: 600px;
+    background-image: url('/src/images/callback/phone.png');
+    background-size: 23rem;
+    background-repeat: no-repeat;
+    margin-top: 12rem;
+    margin-left: 10rem;
+}
+input{
+    border: 1px solid rgb(160, 159, 159);
+}
+.submit{
+    background-color: rgb(1, 50, 78);
+    padding: 1rem;
+}
+@media (max-width: 769px) {
+   div .calback{
+    display:block;
+   }
+   div.four{
+    display: block;
+   }
+   div .phone{
+    margin-left: -6rem;
+   }
+  }

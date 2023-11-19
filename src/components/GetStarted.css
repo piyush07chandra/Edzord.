@@ -1,0 +1,25 @@
+.main{
+    height: 600px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 1px 2px rgb(206, 206, 206);
+    margin-bottom: 3rem;
+}
+.main:hover{
+    background-color: rgb(1,50,70);
+    color:white
+}
+@media (max-width: 768px) {
+    .desktop-slider {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-slider {
+      display: none;
+    }
+  }
