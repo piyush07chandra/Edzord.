@@ -5,7 +5,7 @@ const Bnfm= () => {
     <div className=' bnfm flex mt-14'>
 
     <div className='ml-36 mt-8'>
-        <img className='free-mentor rounded-3xl' src='/src/images/free-mentorship-new-changess.jpg'/>
+        <img className='free-mentor rounded-3xl' src='images/free-mentorship-new-changess.jpg'/>
     </div>
 
     <div className='mt-32 ml-24'>
@@ -14,7 +14,7 @@ const Bnfm= () => {
          Mentorship Session.</h1>
         <button className='book-now mt-10 mb-10'>Book Now Free Mentorship</button>
         <div className='flex'>
-        <img className='h-12 w-42' src='/src/images/footerimages/avatars-new-a.png'/>
+        <img className='h-12 w-42' src='/images/footerimages/avatars-new-a.png'/>
         <span className='text-lg mt-2 ml-2 text-emerald-900 font bold'>Joined by 10,000+ Students</span>
         </div>
        

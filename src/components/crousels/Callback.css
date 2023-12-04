@@ -4,7 +4,7 @@
 .phone{
     width: 400px;
     height: 600px;
-    background-image: url('/src/images/callback/phone.png');
+    background-image: url('/images/callback/phone.png');
     background-size: 23rem;
     background-repeat: no-repeat;
     margin-top: 12rem;

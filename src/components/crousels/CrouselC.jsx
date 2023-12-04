@@ -5,10 +5,10 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const CrouselC = () => {
   const images=[
-    {url:"/src/images/crouselimages/crouselCimage/notes.jpg"},
-    {url:"/src/images/crouselimages/crouselCimage/Simple-Visual-Noes-720-04-1.jpg"},
-    {url:"/src/images/crouselimages/crouselCimage/simple-visual-notes.jpg"},
-    {url:"/src/images/crouselimages/crouselCimage/visual-notes.jpg"}
+    {url:"/images/crouselCimage/notes.jpg"},
+    {url:"/images/crouselCimage/Simple-Visual-Noes-720-04-1.jpg"},
+    {url:"/images/crouselCimage/simple-visual-notes.jpg"},
+    {url:"/images/crouselCimage/visual-notes.jpg"}
   ]
   return (
     <>

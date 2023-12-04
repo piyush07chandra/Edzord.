@@ -7,47 +7,47 @@ import 'slick-carousel/slick/slick-theme.css'
 const GetStarted = () => {
     const images=[
     {
-        url:'/src/images/GetStarted/Asset-10.png',
+        url:'/images/GetStarted/Asset-10.png',
         premium:"Premium+",
         month:"8 Month",
     },
     {
-        url:'/src/images/GetStarted/Asset-11.png',
+        url:'/images/GetStarted/Asset-11.png',
         premium:"Premium+",
         month:"11 Month",
     },
     {
-        url:'/src/images/GetStarted/Asset-14.png',
+        url:'/images/GetStarted/Asset-14.png',
         premium:"Premium+",
         month:"15 Month",
     },
     {
-        url:'/src/images/GetStarted/Asset-15.png',
+        url:'/images/GetStarted/Asset-15.png',
         premium:"Premium+",
         month:"5 Month",
     },
     {
-        url:'/src/images/GetStarted/Asset-149.png',
+        url:'/images/GetStarted/Asset-149.png',
         premium:"Elite Plan",
         month:"Crash Course",
     },
     {
-        url:'/src/images/GetStarted/Asset-148.png',
+        url:'/images/GetStarted/Asset-148.png',
         premium:"Fastrack Prelims",
         month:"crash course",
     },
     {
-        url:'/src/images/GetStarted/Asset-150.png',
+        url:'/images/GetStarted/Asset-150.png',
         premium:"Marks Enhansement Programe",
         month:"",
     },
     {
-        url:'/src/images/GetStarted/Asset-151.png',
+        url:'/images/GetStarted/Asset-151.png',
         premium:"Judgenment Writing",
         month:"",
     },
     {
-        url:'/src/images/GetStarted/Asset-152.png',
+        url:'/images/GetStarted/Asset-152.png',
         premium:"Renewal Premium+",
         month:"",
     },
@@ -59,9 +59,9 @@ const GetStarted = () => {
     <>
      <div className="leaf-container">
   <h1 className="flex ">
-    <img  src="/src/images/headerImages/fin-leaf-left.png"/>
+    <img  src="/images/headerImages/fin-leaf-left.png"/>
     <b className="Law-difference text-6xl font-semibold -ml-24 -mr-24">Get Started Today</b>
-    <img src="/src/images/headerImages/fin-leaf-right.png"/>
+    <img src="/images/headerImages/fin-leaf-right.png"/>
   </h1>
 </div> 
 
@@ -87,8 +87,8 @@ const GetStarted = () => {
         </ul>
         <button className='bg-black text-white p-2 rounded-lg ml-32'>Buy Now</button>
         <div className='flex ml-32'>
-            <img className='h-12 w-12 bg-white rounded-md' src='/src/images/GetStarted/icons2-whatsaapp-e1687690015465.png'/>
-            <img className='h-12 w-12 bg-white rounded-md' src='/src/images/GetStarted/icons2-call.png'/>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-whatsaapp-e1687690015465.png'/>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-call.png'/>
         </div>
              </div>
         
@@ -119,8 +119,8 @@ const GetStarted = () => {
         </ul>
         <button className='bg-black text-white p-2 rounded-lg ml-32'>Buy Now</button>
         <div className='flex ml-32'>
-            <img className='h-12 w-12 bg-white rounded-md' src='/src/images/GetStarted/icons2-whatsaapp-e1687690015465.png'/>
-            <img className='h-12 w-12 bg-white rounded-md' src='/src/images/GetStarted/icons2-call.png'/>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-whatsaapp-e1687690015465.png'/>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-call.png'/>
         </div>
              </div>
         

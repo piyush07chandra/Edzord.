@@ -5,30 +5,30 @@ import './EdzorbLaw.css'
 
 const LatestVideo = () => {
     const images=[
-        {url:'/src/images/edzorbimage/simplified-nptesss.png',h1:"High Yeld QBank with Visual Learning"},
-        {url:'/src/images/edzorbimage/rapid-revision-.png',h1:"Simplified Notes"},
-        {url:'/src/images/edzorbimage/Qbank.png',h1:"EPIC Mains Test Series"},
-        {url:'/src/images/edzorbimage/podcast-red-icon.png',h1:"Personolized Mentorship"},
-        {url:'/src/images/edzorbimage/meptap.png',h1:"Mains QBank"},
-        {url:'/src/images/edzorbimage/mentorship-1.png',h1:"Bare Act Revolution"},
-        {url:'/src/images/edzorbimage/mains-test-.png',h1:"Marks Enhancement Programe"},
-        {url:'/src/images/edzorbimage/mains-factory.png',h1:"Judgement Writing Powerpack Course"},
-        {url:'/src/images/edzorbimage/local-laws.png',h1:"Auto Upgrade Facility"},
-        {url:'/src/images/edzorbimage/judgement-writing.png',h1:"Interactive Visual Learning"},
-        {url:'/src/images/edzorbimage/interview-new.png',h1:" Interview Guidance"},
-        {url:'/src/images/edzorbimage/interactive-new-icon.png',h1:"virtual Edzorbs "},
-        {url:'/src/images/edzorbimage/flowcharts-red.png',h1:"Case Law Notes"},   
-        {url:'/src/images/edzorbimage/fastrack-crashh-.png',h1:"Rapid Revision Notes"},
-        {url:'/src/images/edzorbimage/ESS.png',h1:"Local Law Notes"},
+        {url:'/images/edzorbimage/simplified-nptesss.png',h1:"High Yeld QBank with Visual Learning"},
+        {url:'/images/edzorbimage/rapid-revision-.png',h1:"Simplified Notes"},
+        {url:'/images/edzorbimage/Qbank.png',h1:"EPIC Mains Test Series"},
+        {url:'/images/edzorbimage/podcast-red-icon.png',h1:"Personolized Mentorship"},
+        {url:'/images/edzorbimage/meptap.png',h1:"Mains QBank"},
+        {url:'/images/edzorbimage/mentorship-1.png',h1:"Bare Act Revolution"},
+        {url:'/images/edzorbimage/mains-test-.png',h1:"Marks Enhancement Programe"},
+        {url:'/images/edzorbimage/mains-factory.png',h1:"Judgement Writing Powerpack Course"},
+        {url:'/images/edzorbimage/local-laws.png',h1:"Auto Upgrade Facility"},
+        {url:'/images/edzorbimage/judgement-writing.png',h1:"Interactive Visual Learning"},
+        {url:'/images/edzorbimage/interview-new.png',h1:" Interview Guidance"},
+        {url:'/images/edzorbimage/interactive-new-icon.png',h1:"virtual Edzorbs "},
+        {url:'/images/edzorbimage/flowcharts-red.png',h1:"Case Law Notes"},   
+        {url:'/images/edzorbimage/fastrack-crashh-.png',h1:"Rapid Revision Notes"},
+        {url:'/images/edzorbimage/ESS.png',h1:"Local Law Notes"},
         
     ]
   return (
     <>
      <div className="leaf-container">
   <h1 className="flex ">
-    <img  src="/src/images/headerImages/fin-leaf-left.png"/>
+    <img  src="/images/headerImages/fin-leaf-left.png"/>
     <b className="Law-difference text-6xl font-semibold -ml-24 -mr-24">What Makes Edzorb Law Unique</b>
-    <img src="/src/images/headerImages/fin-leaf-right.png"/>
+    <img src="/images/headerImages/fin-leaf-right.png"/>
   </h1>
 </div> 
 

@@ -6,20 +6,20 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const StrikeRate = () => {
     const images=[
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"93% Strike rate",state:"chandiga Js 2023"},    
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"92% Strike rate",state:"West Bengal Js 2023"},    
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"96% Strike rate",state:"Uttrakhand Js 2023"},    
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"95% Strike rate",state:"Punjab Js 2023"},    
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"94% Strike rate",state:"Up Js 2023"},    
-    {url:'/src/images/strikeRate/trophy-new-ong-1.png',strike:"96% Strike rate",state:"HP Js 2023"},     
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"93% Strike rate",state:"chandiga Js 2023"},    
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"92% Strike rate",state:"West Bengal Js 2023"},    
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"96% Strike rate",state:"Uttrakhand Js 2023"},    
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"95% Strike rate",state:"Punjab Js 2023"},    
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"94% Strike rate",state:"Up Js 2023"},    
+    {url:'/images/strikeRate/trophy-new-ong-1.png',strike:"96% Strike rate",state:"HP Js 2023"},     
     ]
   return (
     <>
      <div className="leaf-container">
   <h1 className="flex ">
-    <img  src="/src/images/headerImages/fin-leaf-left.png"/>
+    <img  src="/images/headerImages/fin-leaf-left.png"/>
     <b className="Law-difference text-6xl font-semibold -ml-24 -mr-24">Strike Rate</b>
-    <img src="/src/images/headerImages/fin-leaf-right.png"/>
+    <img src="/images/headerImages/fin-leaf-right.png"/>
   </h1>
 </div> 
 

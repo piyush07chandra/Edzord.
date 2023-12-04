@@ -5,9 +5,9 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const CrouselG = () => {
   const images=[
-    {url:"/src/images/crouselimages/crouselGimage/ESS-scroller.jpg"},
-    {url:"/src/images/crouselimages/crouselGimage/help-centre-new-changess.jpg"},
-    {url:"/src/images/crouselimages/crouselGimage/soulspeak-scroller.jpg"}
+    {url:"/images/crouselGimage/ESS-scroller.jpg"},
+    {url:"/images/crouselGimage/help-centre-new-changess.jpg"},
+    {url:"/images/crouselGimage/soulspeak-scroller.jpg"}
   ]
   return (
     <>

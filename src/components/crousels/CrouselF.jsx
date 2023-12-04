@@ -5,11 +5,11 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const CrouselF = () => {
   const images=[
-    {url:"/src/images/crouselimages/crouselFimage/Flash-Cards-new-changesss.jpg"},
-    {url:"/src/images/crouselimages/crouselFimage/RESIZE-3.jpg"},
-    {url:"/src/images/crouselimages/crouselFimage/scroller-1.jpg"},
-    {url:"/src/images/crouselimages/crouselFimage/scroller-2.jpg"},
-    {url:"/src/images/crouselimages/crouselFimage/scroller-4.jpg"},
+    {url:"/images/crouselFimage/Flash-Cards-new-changesss.jpg"},
+    {url:"/images/crouselFimage/RESIZE-3.jpg"},
+    {url:"/images/crouselFimage/scroller-1.jpg"},
+    {url:"/images/crouselFimage/scroller-2.jpg"},
+    {url:"/images/crouselFimage/scroller-4.jpg"},
   ]
   return (
     <>

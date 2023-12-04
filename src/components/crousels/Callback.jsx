@@ -17,13 +17,13 @@ const Callback = () => {
           <div className=' mt-6 pb-6 pl-24'>
             <div className='four  flex text-white text-xl  font-semibold'>
                <div className=' mr-48'>
-                 <img className='h-16 w-16' src='/src/images/callback/Asset-28.png'/>
+                 <img className='h-16 w-16' src='/images/callback/Asset-28.png'/>
                  <span className='text-3xl'>1,000+</span>
                  <h1 >Ranks</h1>
                </div> 
 
                <div className=''>
-                 <img className='h-16 w-16' src='/src/images/callback/Asset-27-1.png'/>
+                 <img className='h-16 w-16' src='/images/callback/Asset-27-1.png'/>
                  <span className='text-3xl '>10,000+</span>
                  <h1>Students</h1>
                </div>    
@@ -31,13 +31,13 @@ const Callback = () => {
 
             <div className='four flex text-white text-xl font-semibold mt-8'>
                <div className='mr-40'>
-                 <img className='h-16 w-16' src='/src/images/callback/users.png'/>
+                 <img className='h-16 w-16' src='/images/callback/users.png'/>
                  <span className='text-3xl'>100,000+</span>
                  <h1>Monthly Users</h1>
                </div> 
 
                <div>
-                 <img className='h-16 w-16' src='/src/images/callback/Asset-26-1.png'/>
+                 <img className='h-16 w-16' src='/images/callback/Asset-26-1.png'/>
                  <span className='text-3xl'>7+</span>
                  <h1>Courses</h1>
                </div>    
@@ -49,7 +49,7 @@ const Callback = () => {
         <div className='phone'>
            <div className='flex mt-20  ml-20'>
               <h1 className='text-3xl font-semibold'>Get a Callback</h1>
-              <img className='h-10 w-10' src='/src/images/callback/icons8-call-100-4.png'/>
+              <img className='h-10 w-10' src='/images/callback/icons8-call-100-4.png'/>
            </div>
           
            <input className='flex rounded-2xl bg-gray-200 mt-6 ml-14 pr-12 pb-3' placeholder='Your Name'/>

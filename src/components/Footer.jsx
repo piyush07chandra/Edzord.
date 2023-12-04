@@ -10,19 +10,19 @@ const Footer = () => {
 <div className='div1'>
 
 <a href="/" className="">
-        <img className="h-14 -ml-5" src="/src/images/headerImages/legal-rumble-2-logo.png"/>
+        <img className="h-14 -ml-5" src="/images/headerImages/legal-rumble-2-logo.png"/>
       </a>
    <p className='text-sm font-thin mt-3'>Do not Waste Time. JOIN NOW</p>
 
     <span className='flex mt-5'>
-      <a href="#"><img className="h-8 w-22" src="/src/images/headerImages/Asset-9.png"/></a>
-      <a href="#"><img className="h-8 w-22 ml-7" src="/src/images/headerImages/Asset-8.png"/></a>
+      <a href="#"><img className="h-8 w-22" src="/images/headerImages/Asset-9.png"/></a>
+      <a href="#"><img className="h-8 w-22 ml-7" src="/images/headerImages/Asset-8.png"/></a>
     </span>
     
     <span className='flex mt-6'>
-      <img className='h-12 p-2 bg-white rounded-2xl' src='/src/images/footerimages/telegram-1.png'/>
-      <img className='h-12 p-2 bg-white rounded-2xl ml-4' src='/src/images/footerimages/insta.png'/>
-      <img className='h-12 p-2 bg-white rounded-2xl ml-4' src='/src/images/footerimages/you-1.png'/>
+      <img className='h-12 p-2 bg-white rounded-2xl' src='/images/footerimages/telegram-1.png'/>
+      <img className='h-12 p-2 bg-white rounded-2xl ml-4' src='/images/footerimages/insta.png'/>
+      <img className='h-12 p-2 bg-white rounded-2xl ml-4' src='/images/footerimages/you-1.png'/>
     </span>
 
 </div>
@@ -69,7 +69,7 @@ const Footer = () => {
   </span>
 
 <span className='flex mt-6'>
-<img className='h-6' src='/src/images/footerimages/avatars-new-a.png'/>
+<img className='h-6' src='/images/footerimages/avatars-new-a.png'/>
 <h1 className='text-sm ml-4'>Joined by 10,000+ Students</h1>
 </span>
 
