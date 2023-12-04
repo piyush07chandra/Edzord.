@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const CrouselA = () => {
   const images=[
-    {url:"/images/crouselAimage/qbank-1.jpg"},
+    {url:"../images/crouselAimage/qbank-1.jpg"},
     {url:"/images/crouselAimage/Question-Bank-ewd.jpg"},
     {url:"/images/crouselAimage/scroller-qbank-2.jpg"}
   ]
