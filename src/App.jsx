@@ -1,7 +1,7 @@
 
 import './App.css'
 import EdzorbLaw from './components/EdzorbLaw'
-import Bnfm from './components/BNFM'
+import Bnfm from './components/Bnfm'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import LatestVideo from './components/LatestVideo'
