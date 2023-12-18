@@ -101,7 +101,7 @@ cursor: grab;
     }
     .for-mobile{
         display: none;
-        margin-top:1px;
+        
     }
 
 
@@ -126,16 +126,16 @@ cursor: grab;
    
     .first-div{
         width: 250px;
-        margin-left: 6rem;
+        margin-left: 2.5rem;
     }
     .mcrouselImages{
         height: 400px;
     }
     .second-div{
-        width: 400px;
+        width: 250px;
         height: 220px;
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 0.1rem;
     }
     ul{
         display: none;
@@ -148,8 +148,8 @@ cursor: grab;
         padding-bottom: 0.1rem;
         padding-left: 0rem;
         padding-right: 0rem;
-        margin-left: 6rem;
-        margin-top: 2rem;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
     }
     
 

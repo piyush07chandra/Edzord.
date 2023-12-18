@@ -45,8 +45,7 @@ input{
        }
     
     div .phone{
-        margin-top: 1rem;
-        margin-left: -5rem;
+       display: none;
        }
        .four{
         margin-left: -12rem;

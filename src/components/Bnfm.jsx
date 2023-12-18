@@ -13,7 +13,7 @@ const Bnfm= () => {
         Journey? Sign Up Now for Free<br/>
          Mentorship Session.</h1>
         <button className='book-now mt-10 mb-10'>Book Now Free Mentorship</button>
-        <div className='flex'>
+        <div className='md:flex'>
         <img className='h-12 w-42' src='/images/footerimages/avatars-new-a.png'/>
         <span className='text-lg mt-2 ml-2 text-emerald-900 font bold'>Joined by 10,000+ Students</span>
         </div>

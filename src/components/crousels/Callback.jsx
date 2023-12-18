@@ -16,7 +16,7 @@ const Callback = () => {
 
           <div className=' mt-6 pb-6 pl-24'>
             <div className='four  flex text-white text-xl  font-semibold'>
-               <div className=' mr-48'>
+               <div className=' mr-28'>
                  <img className='h-16 w-16' src='/images/callback/Asset-28.png'/>
                  <span className='text-3xl'>1,000+</span>
                  <h1 >Ranks</h1>
@@ -30,7 +30,7 @@ const Callback = () => {
             </div>
 
             <div className='four flex text-white text-xl font-semibold mt-8'>
-               <div className='mr-40'>
+               <div className='mr-20'>
                  <img className='h-16 w-16' src='/images/callback/users.png'/>
                  <span className='text-3xl'>100,000+</span>
                  <h1>Monthly Users</h1>
@@ -47,7 +47,6 @@ const Callback = () => {
         </div>
 
         <div className='phone'>
-        
            <div className='gac  flex   ml-20'>
               <h1 className=' text-2xl font-semibold'>Get a Callback</h1>
               <img className='h-10 w-10' src='/images/callback/icons8-call-100-4.png'/>
