@@ -36,6 +36,7 @@ const LatestVideo = () => {
 <Slider 
         slidesToShow={4}
          dots={true}
+         arrows={false}
       infinite={true}
       slidesToScroll={3}
       autoplay={true}
@@ -54,10 +55,10 @@ const LatestVideo = () => {
         </Slider>
 </div>
 
-<div className='mobile-slider mb-12 ml-20 -mt-14'>
+<div className='mobile-slider mb-12 ml-20 '>
 <Slider 
         slidesToShow={1}
-         dots={true}
+        arrows={false}
       infinite={true}
       slidesToScroll={3}
       autoplay={true}

@@ -1,15 +1,17 @@
 .crouselA{
+    display: flex;
     background-color: white;
     width: 1150px;
-    margin-left: 9%;
-    margin-top: -4rem;
+    margin-left: 5%;
+    margin-top: 0rem;
     border-radius: 5rem;
     box-shadow: 1px 1px 2px 2px rgba(199, 208, 211); 
 }
 .crousel-all{
+    display: flex;
     background-color: white;
     width: 1150px;
-    margin-left: 9%;
+    margin-left: 5%;
     margin-top: 2rem;
     border-radius: 5rem;
     box-shadow: 1px 1px 2px 2px rgba(199, 208, 211); 
@@ -22,7 +24,6 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
     box-shadow: 1px 5px 4px 6px rgba(199, 208, 211); 
-    
 }
 .second-div{
     background-color: rgb(255, 255, 255);
@@ -56,28 +57,100 @@ cursor: grab;
     color: rgb(119, 119, 119);
 }
 
-@media (max-width: 769px){
-    div .crouselA{
-        height: 80rem;
-        width: auto;
-        display: block;
-    }
-    div .first-div{
-        height: 650px;
-        width: 300px;
-        margin-left:3rem;
-        padding: 2rem;
-    }
-    div .second-div{
-        width: 300px;
-        height: 500px;
-        margin-bottom: 2rem;
-    }
+
+
+.for-mobile{
+    display: none;
 }
-@media (max-width: 769px){
-   div .crousel-all{
-    height: 80rem;
-        width: auto;
-        display: block;
-   }
+
+  /* Media query for tablets */
+@media (max-width: 768px) {
+    .crousel-all{
+        width: 700px;
+        margin-left: 5%;
+        margin-top: 2rem;
+    }
+    .crouselA{
+        margin-top: 0rem;
+       height: 530px;
+        width: 700px;
+    }
+    .second-div h1{
+        font-size: medium;
+    }
+    .second-div ul{
+        font-size: small;
+    }
+    .first-div{
+        width: 250px;
+        height: 400px;
+        margin-left: 4rem;
+        margin-right: 3rem;
+    }
+    .second-div{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+        
+    }
+    .mcrouselImages{
+        height: 400px;
+    }
+    .btnn{
+        margin-left: 5rem;
+    }
+    .for-mobile{
+        display: none;
+        margin-top:1px;
+    }
+
+
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .crouselA{
+        display: none;   
+    }
+    .crousel-all{
+        display: none;
+    }
+    .crousel-all{
+        display:none ;
+    }
+  .for-mobile{
+    display: block;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+  }
+   
+    .first-div{
+        width: 250px;
+        margin-left: 6rem;
+    }
+    .mcrouselImages{
+        height: 400px;
+    }
+    .second-div{
+        width: 400px;
+        height: 220px;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    ul{
+        display: none;
+    }
+    
+    .second-div button{
+        background-color: rgb(1, 50, 78);
+        border-radius: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+    
+
 }

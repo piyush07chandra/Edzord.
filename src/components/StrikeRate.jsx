@@ -15,7 +15,7 @@ const StrikeRate = () => {
     ]
   return (
     <>
-     <div className="leaf-container">
+     <div className="leaf-container ">
   <h1 className="flex ">
     <img  src="/images/headerImages/fin-leaf-left.png"/>
     <b className="Law-difference text-6xl font-semibold -ml-24 -mr-24">Strike Rate</b>
@@ -23,9 +23,12 @@ const StrikeRate = () => {
   </h1>
 </div> 
 
+
+{/* desktop */}
 <div className='desktop-slider mb-12 ml-20 '>
 <Slider 
         slidesToShow={3}
+        arrows={false}
          dots={true}
       infinite={true}
       slidesToScroll={3}
@@ -45,12 +48,40 @@ const StrikeRate = () => {
        
         </Slider>
 </div>
-<div className='mobile-slider mb-12 ml-9 '>
+
+{/* tablet */}
+<div className='tablet-slider mb-12 ml-1 '>
+<Slider 
+        slidesToShow={2}
+        arrows={false}
+      infinite={true}
+      slidesToScroll={2}
+        >
+         {images.map((image,index)=>(
+        <div className="" key={index}>
+             <div className='kaju bg-white '>
+             <img className=" h-40 w-40 pt-9  ml-24  " src={image.url} />
+        <h1 className='aadi text-2xl text-center mt-9 font-bold ' >{image.strike}</h1>
+        <h1 className='text-xl text-white text-center  bg-black rounded-md mt-3 font-bold'>{image.state}</h1>
+        
+        
+             </div>
+        
+        </div>
+      ))}
+       
+        </Slider>
+</div>
+ 
+ {/* mobile */}
+<div className='mobile-slider  ml-9 '>
 <Slider 
         slidesToShow={1}
-         dots={true}
+        arrows={false}
       infinite={true}
-      slidesToScroll={3}
+      slidesToScroll={1}
+      autoplay={true}
+      autoplaySpeed={2000}
         >
          {images.map((image,index)=>(
         <div className="" key={index}>

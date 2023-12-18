@@ -1,18 +1,19 @@
-
-.kaju{
-    height: 300px;
-    width: 350px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3rem;
-    align-items: center;
-    justify-content: center;
+.icons{
+    display: block;
+    margin: auto;
     box-shadow: 1px 2px 1px 2px rgb(206, 206, 206);
-    margin-bottom: 3rem;
 }
-.aadi{
-    background-image: url('/src/images/strikeRate/brush-strokes-dimen-18-1024x279.png');
-    background-repeat: no-repeat;
-   background-size:  24rem 2rem;
+.star{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+.card{
+    border-radius: 8px 2px 2px 8px gray;
+    box-shadow: 1px 2px 5px 5px rgb(206, 206, 206);
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 430px;
 }
 
 .tablet-slider{
@@ -33,6 +34,12 @@
   .mobile-slider{
     display: none;
 }
+.card{
+    width: 270px;
+    padding-left: 0%;;
+    
+}
+
 }
 
 /* Media query for mobile devices */
@@ -46,5 +53,4 @@
 .mobile-slider{
   display: block;
 }
-
 }

@@ -69,6 +69,7 @@ const GetStarted = () => {
 <Slider 
         slidesToShow={3}
          dots={true}
+         arrows={false}
       infinite={true}
       slidesToScroll={3}
         >
@@ -98,11 +99,14 @@ const GetStarted = () => {
         </Slider>
 </div>
 
-<div className='mobile-slider mb-12 ml-14 -mt-14'>
+<div className='mobile-slider ml-9 '>
 <Slider 
         slidesToShow={1}
+        arrows={false}
       infinite={true}
       slidesToScroll={1}
+      autoplay={true}
+      autoplaySpeed={2000}
         >
          {images.map((image,index)=>(
         <div className="" key={index}>

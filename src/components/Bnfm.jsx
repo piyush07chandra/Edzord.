@@ -4,11 +4,11 @@ const Bnfm= () => {
   return (
     <div className=' bnfm flex mt-14'>
 
-    <div className='ml-36 mt-8'>
+    <div className='md:ml-32 mt-8'>
         <img className='free-mentor rounded-3xl' src='images/free-mentorship-new-changess.jpg'/>
     </div>
 
-    <div className='mt-32 ml-24'>
+    <div className=' md:mt-32 ml-24'>
         <h1 className='text-3xl'>Are You Ready to Begin Your Judiciary <br/> 
         Journey? Sign Up Now for Free<br/>
          Mentorship Session.</h1>

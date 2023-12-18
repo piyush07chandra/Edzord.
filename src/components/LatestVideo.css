@@ -1,5 +1,5 @@
 .leaf-container{
-    height: 18rem;
+    height: 17.4rem;
     background-color: rgb(197,230,254);
     box-shadow: 1px 2px 5px 8px rgb(197, 230, 254);
   }
@@ -14,10 +14,17 @@
     .desktop-slider {
       display: none;
     }
+    .leaf-container{
+      margin-top: 1rem;
+      height: 10rem;
+      background-color: rgb(197,230,254);
+      box-shadow: 1px 2px 5px 8px rgb(197, 230, 254);
+    }
   }
   
   @media (min-width: 769px) {
     .mobile-slider {
       display: none;
     }
+
   }
