@@ -74,7 +74,7 @@ const StrikeRate = () => {
 </div>
  
  {/* mobile */}
-<div className='mobile-slider  ml-9 '>
+<div className='mobile-slider'>
 <Slider 
         slidesToShow={1}
         arrows={false}

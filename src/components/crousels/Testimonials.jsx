@@ -20,7 +20,7 @@ const images=[
 <div className="leaf-container">
   <h1 className="flex ">
     <img  src="/images/headerImages/fin-leaf-left.png"/>
-    <b className="Law-difference text-6xl font-semibold -ml-24 -mr-24">Testimonials</b>
+    <b className="Law-difference text-4xl font-semibold -ml-24 -mr-24">Testimonials</b>
     <img src="/images/headerImages/fin-leaf-right.png"/>
   </h1>
 </div>
@@ -83,7 +83,7 @@ const images=[
 </div>
  
  {/* mobile */}
-<div className='mobile-slider mb-1 mt-3 ml-12 '>
+<div className='mobile-slider mb-1 mt-3  '>
 <Slider 
         slidesToShow={1}
         arrows={false}
