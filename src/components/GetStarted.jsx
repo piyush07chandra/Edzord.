@@ -99,6 +99,43 @@ const GetStarted = () => {
         </Slider>
 </div>
 
+{/* tablet */}
+
+<div className='tablet-slider ml-9 '>
+<Slider 
+        slidesToShow={2}
+        arrows={false}
+      infinite={true}
+      slidesToScroll={1}
+      autoplay={true}
+      autoplaySpeed={2000}
+        >
+         {images.map((image,index)=>(
+        <div className="" key={index}>
+             <div className='main bg-whiteml-5'>
+             <img className=" h-36 w-36 pt-9 pb-5 ml-24  " src={image.url} />
+        <h1 className='text-2xl text-center mt-9 font-bold'>{image.premium}</h1>
+        <h1 className='text-xl text-white text-center m-20 bg-black rounded-md mt-3 font-bold'>{image.month}</h1>
+        <ul className='text-xl font-semibold text-center'>
+            <li>Dedicated 90 days Shedule</li>
+            <li>Prelims & main Target</li>
+            <li>Easy writing and judgement</li>
+            <li>symplified notes</li>
+            <li>check all features</li>
+        </ul>
+        <button className='bg-black text-white p-2 rounded-lg ml-32'>Buy Now</button>
+        <div className='flex ml-32'>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-whatsaapp-e1687690015465.png'/>
+            <img className='h-12 w-12 bg-white rounded-md' src='/images/GetStarted/icons2-call.png'/>
+        </div>
+             </div>
+        
+        </div>
+      ))}
+       
+        </Slider>
+</div>
+
 <div className='mobile-slider ml-9 '>
 <Slider 
         slidesToShow={1}

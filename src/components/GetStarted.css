@@ -16,10 +16,16 @@
     .desktop-slider {
       display: none;
     }
+    .tablet-slider{
+      display:none;
+    }
   }
   
   @media (min-width: 769px) {
     .mobile-slider {
       display: none;
+    }
+    .tablet-slider{
+      display:block
     }
   }

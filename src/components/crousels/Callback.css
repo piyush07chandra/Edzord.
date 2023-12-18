@@ -17,14 +17,39 @@ input{
     background-color: rgb(1, 50, 78);
     padding: 1rem;
 }
-@media (max-width: 769px) {
-   div .calback{
-    display:block;
-   }
-   div.four{
-    display: block;
-   }
-   div .phone{
-    margin-left: -6rem;
-   }
-  }
+.gac{
+    padding-top: 4rem;
+}
+
+
+   /* Media query for tablets */
+@media (max-width: 768px) {
+    div .calback{
+        display:block;
+       }
+    .gac{
+        padding-top: 4rem;
+    }
+    div .phone{
+        margin-top: 1rem;
+        margin-left: 6rem;
+       }
+
+    
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    div .calback{
+        display:block;
+       }
+    
+    div .phone{
+        margin-top: 1rem;
+        margin-left: -5rem;
+       }
+       .four{
+        margin-left: -12rem;
+       }
+
+}

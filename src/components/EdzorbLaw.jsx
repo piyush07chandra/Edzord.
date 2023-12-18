@@ -55,6 +55,29 @@ const LatestVideo = () => {
         </Slider>
 </div>
 
+{/* tablet */}
+<div className='tablet-slider mb-12 ml-20 '>
+<Slider 
+        slidesToShow={2}
+        arrows={false}
+      infinite={true}
+      slidesToScroll={2}
+      autoplay={true}
+      autoplaySpeed={2000}
+        >
+         {images.map((image,index)=>(
+        <div className="" key={index}>
+             <div className='order bg-white w-60 h-96 ml-5'>
+             <img className=" h-52 w-52 pt-9 pb-5 ml-4  " src={image.url} />
+        <h1 className='text-xl text-center mt-9 font-bold'>{image.h1}</h1>
+             </div>
+        
+        </div>
+      ))}
+       
+        </Slider>
+</div>
+
 <div className='mobile-slider mb-12 ml-20 '>
 <Slider 
         slidesToShow={1}

@@ -5,14 +5,23 @@
     box-shadow: 1px 2px 1px 2px rgb(206, 206, 206);
     margin-bottom: 3rem;
 }
+.tablet-slider{
+  display:none
+}
 @media (max-width: 768px) {
     .desktop-slider {
       display: none;
+    }
+    .tablet-slider{
+      display:block
     }
   }
   
   @media (min-width: 769px) {
     .mobile-slider {
       display: none;
+    }
+    .tablet-slider{
+      display:none
     }
   }
